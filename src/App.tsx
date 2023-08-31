@@ -44,6 +44,8 @@ function App() {
   //     toast.error(e.message);
   //   } else toast.error(e.message);
   // }
+
+  
   function onError(e: WalletError) {
     if (e instanceof WalletNotFoundError) {
       toast.error(e.message);
